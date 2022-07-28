@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="fizz-buzz" />
+        <module name="room-service-graphql" />
+        <module name="room-service" />
+        <module name="cmd-app-nosql" />
+        <module name="cmd-app" />
+        <module name="example" />
+        <module name="room-batch" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cmd-app" target="11" />
+      <module name="cmd-app-nosql" target="11" />
+      <module name="example" target="11" />
+      <module name="fizz-buzz" target="11" />
+      <module name="room-batch" target="11" />
+      <module name="room-service" target="11" />
+      <module name="room-service-graphql" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
